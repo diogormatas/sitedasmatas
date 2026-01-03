@@ -1,0 +1,47 @@
+<div id="dm-kpi-pane" class="relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] w-screen -mt-20">
+
+  <style>
+    /* Light (default) */
+    #dm-kpi-pane { background: #f3f4f6; } /* gray-100 */
+    #dm-kpi-pane .dm-kpi-number { color: #111827; }
+    #dm-kpi-pane .dm-kpi-label  { color: rgba(17,24,39,.78); }
+
+    /* Dark (.dark or data-theme="dark") */
+    html.dark #dm-kpi-pane, body.dark #dm-kpi-pane,
+    html[data-theme="dark"] #dm-kpi-pane, body[data-theme="dark"] #dm-kpi-pane {
+      background: rgb(17, 24, 39);
+    }
+    html.dark #dm-kpi-pane .dm-kpi-number, body.dark #dm-kpi-pane .dm-kpi-number,
+    html[data-theme="dark"] #dm-kpi-pane .dm-kpi-number, body[data-theme="dark"] #dm-kpi-pane .dm-kpi-number {
+      color: #fff;
+    }
+    html.dark #dm-kpi-pane .dm-kpi-label, body.dark #dm-kpi-pane .dm-kpi-label,
+    html[data-theme="dark"] #dm-kpi-pane .dm-kpi-label, body[data-theme="dark"] #dm-kpi-pane .dm-kpi-label {
+      color: rgba(255,255,255,.85);
+    }
+  </style>
+
+  <!-- PANE MAIS GROSSO -->
+  <div class="px-4 py-32 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-16 lg:px-20">
+
+    <div class="grid grid-cols-3 gap-0">
+      {{ range $i, $it := site.Data.stats.items }}
+        <div class="text-center px-3 md:px-10
+          {{ if lt $i (sub (len site.Data.stats.items) 1) }}
+            md:border-r border-black/10 dark:border-white/20
+          {{ end }}">
+
+          <div class="text-5xl sm:text-6xl lg:text-6xl xl:text-7xl font-semibold leading-none">
+            {{ $it.value }}
+          </div>
+
+          <div class="mt-2 text-sm sm:text-base md:text-lg font-semibold tracking-wide text-gray-800 dark:text-gray-200 whitespace-nowrap">
+            {{ $it.label }}
+          </div>
+
+        </div>
+      {{ end }}
+    </div>
+
+  </div>
+</div>

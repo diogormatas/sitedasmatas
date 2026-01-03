@@ -1,0 +1,219 @@
+/* =========================
+   HEADER — esconder texto e manter SVG
+   ========================= */
+
+/* 1) Esconde o texto do link (mantém o logo) */
+.navbar .navbar-brand {
+  font-size: 0 !important;
+  line-height: 0 !important;
+  display: flex;
+  align-items: center;
+}
+
+/* 2) Volta a dar tamanho ao SVG */
+.navbar .navbar-brand svg {
+  height: 56px !important; /* ajusta aqui */
+  width: auto !important;
+  display: block !important;
+}
+
+
+/* =========================
+   DAS MATAS — Primary Green Palette
+   ========================= */
+
+:root {
+  --color-primary-50: 236 253 245;
+  --color-primary-100: 209 250 229;
+  --color-primary-200: 167 243 208;
+  --color-primary-300: 110 231 183;
+  --color-primary-400: 52 211 153;
+  --color-primary-500: 16 185 129;
+  --color-primary-600: 5 150 105;
+  --color-primary-700: 4 120 87;
+  --color-primary-800: 6 95 70;
+  --color-primary-900: 6 78 59;
+  --color-primary-950: 2 44 34;
+}
+
+/* =========================
+   MAPEAR classes Tailwind-like do tema (text-primary-*)
+   O teu HTML usa: text-primary-600, dark:text-primary-400,
+   hover:text-primary-700, dark:hover:text-primary-300, etc.
+   ========================= */
+
+/* Texto */
+.text-primary-50  { color: rgb(var(--color-primary-50) / 1) !important; }
+.text-primary-100 { color: rgb(var(--color-primary-100) / 1) !important; }
+.text-primary-200 { color: rgb(var(--color-primary-200) / 1) !important; }
+.text-primary-300 { color: rgb(var(--color-primary-300) / 1) !important; }
+.text-primary-400 { color: rgb(var(--color-primary-400) / 1) !important; }
+.text-primary-500 { color: rgb(var(--color-primary-500) / 1) !important; }
+.text-primary-600 { color: rgb(var(--color-primary-600) / 1) !important; }
+.text-primary-700 { color: rgb(var(--color-primary-700) / 1) !important; }
+.text-primary-800 { color: rgb(var(--color-primary-800) / 1) !important; }
+.text-primary-900 { color: rgb(var(--color-primary-900) / 1) !important; }
+.text-primary-950 { color: rgb(var(--color-primary-950) / 1) !important; }
+
+/* Dark text */
+.dark\:text-primary-50  { color: rgb(var(--color-primary-50) / 1) !important; }
+.dark\:text-primary-100 { color: rgb(var(--color-primary-100) / 1) !important; }
+.dark\:text-primary-200 { color: rgb(var(--color-primary-200) / 1) !important; }
+.dark\:text-primary-300 { color: rgb(var(--color-primary-300) / 1) !important; }
+.dark\:text-primary-400 { color: rgb(var(--color-primary-400) / 1) !important; }
+.dark\:text-primary-500 { color: rgb(var(--color-primary-500) / 1) !important; }
+.dark\:text-primary-600 { color: rgb(var(--color-primary-600) / 1) !important; }
+.dark\:text-primary-700 { color: rgb(var(--color-primary-700) / 1) !important; }
+.dark\:text-primary-800 { color: rgb(var(--color-primary-800) / 1) !important; }
+.dark\:text-primary-900 { color: rgb(var(--color-primary-900) / 1) !important; }
+.dark\:text-primary-950 { color: rgb(var(--color-primary-950) / 1) !important; }
+
+/* Hover text */
+.hover\:text-primary-300:hover { color: rgb(var(--color-primary-300) / 1) !important; }
+.hover\:text-primary-400:hover { color: rgb(var(--color-primary-400) / 1) !important; }
+.hover\:text-primary-500:hover { color: rgb(var(--color-primary-500) / 1) !important; }
+.hover\:text-primary-600:hover { color: rgb(var(--color-primary-600) / 1) !important; }
+.hover\:text-primary-700:hover { color: rgb(var(--color-primary-700) / 1) !important; }
+
+/* Dark hover text */
+.dark\:hover\:text-primary-300:hover { color: rgb(var(--color-primary-300) / 1) !important; }
+.dark\:hover\:text-primary-400:hover { color: rgb(var(--color-primary-400) / 1) !important; }
+.dark\:hover\:text-primary-500:hover { color: rgb(var(--color-primary-500) / 1) !important; }
+.dark\:hover\:text-primary-600:hover { color: rgb(var(--color-primary-600) / 1) !important; }
+.dark\:hover\:text-primary-700:hover { color: rgb(var(--color-primary-700) / 1) !important; }
+
+/* =========================
+   NAVBAR — hover/active em verde
+   ========================= */
+
+/* 1) O tema usa "text-primary" (sem -500). Mapear para o teu primary-500 */
+.text-primary { color: rgb(var(--color-primary-500) / 1) !important; }
+.hover\:text-primary:hover { color: rgb(var(--color-primary-600) / 1) !important; }
+.dark\:hover\:text-primary:hover { color: rgb(var(--color-primary-400) / 1) !important; }
+
+/* 2) Links do menu (classes do tema: nav-link, active) */
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+  color: rgb(var(--color-primary-600) / 1) !important;
+}
+
+.navbar .nav-link.active,
+.navbar .nav-link[aria-current="page"] {
+  color: rgb(var(--color-primary-700) / 1) !important;
+}
+
+/* 3) Dark mode do menu */
+.dark .navbar .nav-link:hover,
+.dark .navbar .nav-link:focus {
+  color: rgb(var(--color-primary-400) / 1) !important;
+}
+
+.dark .navbar .nav-link.active,
+.dark .navbar .nav-link[aria-current="page"] {
+  color: rgb(var(--color-primary-300) / 1) !important;
+}
+
+/* =========================
+   LINKS EDITORIAIS — mais calmos (Read more, Ler mais)
+   ========================= */
+
+/* Read more / links pequenos editoriais */
+.text-primary-500,
+.text-primary-600 {
+  color: rgb(var(--color-primary-600) / 1);
+}
+
+.hover\:text-primary-700:hover {
+  color: rgb(var(--color-primary-700) / 1);
+}
+
+/* Dark mode */
+.dark .text-primary-500,
+.dark .text-primary-600 {
+  color: rgb(var(--color-primary-400) / 1);
+}
+
+.dark .hover\:text-primary-700:hover {
+  color: rgb(var(--color-primary-300) / 1);
+}
+
+
+/* =========================
+   FEED — Read more em primary-700
+   ========================= */
+
+/* Read more costuma usar text-primary-500/600 */
+.text-primary-500,
+.text-primary-600 {
+  color: rgb(var(--color-primary-700) / 1) !important;
+}
+
+/* hover ligeiramente mais escuro */
+.hover\:text-primary-700:hover {
+  color: rgb(var(--color-primary-800) / 1) !important;
+}
+
+/* Dark mode */
+.dark .text-primary-500,
+.dark .text-primary-600 {
+  color: rgb(var(--color-primary-400) / 1) !important;
+}
+.dark .hover\:text-primary-700:hover {
+  color: rgb(var(--color-primary-300) / 1) !important;
+}
+
+/* =========================
+   FEED (Top 6) — 2 fixes
+   1) Labels Aldeia/Padel/Runner sem verde
+   2) Título não fica azul no hover
+   ========================= */
+
+/* 1) Labels (chips) — neutralizar verde */
+.bg-primary-100 { background-color: rgb(244 244 245 / 1) !important; }        /* zinc-100 */
+.text-primary-800 { color: rgb(63 63 70 / 1) !important; }                   /* zinc-700 */
+
+/* Dark mode dos chips */
+.dark .dark\:bg-primary-900\/40 { background-color: rgb(39 39 42 / 0.4) !important; } /* zinc-800/40 */
+.dark .dark\:text-primary-300 { color: rgb(212 212 216 / 1) !important; }             /* zinc-300 */
+
+
+/* 2) Título — matar o azul no hover (light + dark) */
+.group-hover\:text-blue-600 { color: inherit !important; }
+.dark .dark\:group-hover\:text-blue-400 { color: inherit !important; }
+
+
+/* =====================================================
+   DAS MATAS — AJUSTES EDITORIAIS
+   ===================================================== */
+
+/* 1) Justificar texto dos posts (apenas conteúdo editorial) */
+.article-container .prose p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+/* 2) Melhorar leitura em português (hifenização suave) */
+.article-container .prose {
+  hyphens: auto;
+}
+
+/* 3) Evitar sublinhados em títulos e links editoriais */
+.prose a {
+  text-decoration: none;
+}
+
+/* 4) Manter sublinhado só no hover (mais limpo) */
+.prose a:hover {
+  text-decoration: underline;
+}
+
+/* 5) Garantir que títulos NÃO ficam justificados */
+.article-container .prose h1,
+.article-container .prose h2,
+.article-container .prose h3 {
+  text-align: left;
+}
+
+/* =====================================================
+   FIM — DAS MATAS
+   ===================================================== */

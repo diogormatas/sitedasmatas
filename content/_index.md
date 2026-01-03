@@ -1,131 +1,209 @@
 ---
-# Leave the homepage title empty to use the site title
 title: ''
-summary: ''
-date: 2022-10-24
 type: landing
 
-design:
-  # Default section spacing
-  spacing: '6rem'
-
 sections:
-  - block: resume-biography-3
-    content:
-      # Choose a user profile to display (a folder name within `content/authors/`)
-      username: me
-      text: ''
-      # Show a call-to-action button under your biography? (optional)
-      button:
-        text: Download CV
-        url: uploads/resume.pdf
-      headings:
-        about: ''
-        education: ''
-        interests: ''
-    design:
-      # Use the new Gradient Mesh which automatically adapts to the selected theme colors
-      background:
-        gradient_mesh:
-          enable: true
-
-      # Name heading sizing to accommodate long or short names
-      name:
-        size: md # Options: xs, sm, md, lg (default), xl
-
-      # Avatar customization
-      avatar:
-        size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
-        shape: circle # Options: circle (default), square, rounded
+  # HERO / Banner grande com card discreto central + logo + CTA IG
   - block: markdown
     content:
-      title: '📚 My Research'
-      subtitle: ''
+      title: ""
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+        {{< hero_card >}}
 
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
+    design:
+      columns: "1"
+      background:
+        image:
+          filename: "banner-matas.jpg"
+          filters:
+            brightness: 0.85
+      spacing:
+        padding: ["0", "0", "0", "0"]
 
-        Please reach out to collaborate 😃
-    design:
-      columns: '1'
-  - block: collection
-    id: papers
+  # BIG NUMBERS (via shortcode + data)
+  - block: markdown
     content:
-      title: Featured Publications
-      filters:
-        folders:
-          - publications
-        featured_only: true
+      title: ""
+      text: |-
+        {{< big_numbers >}}
     design:
-      view: article-grid
-      columns: 2
+      columns: "1"
+      full_width: true
+      spacing:
+        padding: ["0", "0", "0", "0"]
+
+
+  - block: markdown
+    content:
+      title: ""
+      text: |-
+        {{< rawhtml >}}
+
+        <div class="text-center max-w-3xl mx-auto mb-32 md:mb-32">
+
+          <!-- TEXTO CURTO -->
+          <p class="text-2xl md:text-3xl font-semibold leading-snug">
+            A aldeia que ninguém conhece.<br/>
+            As pessoas que fazem a diferença.<br/>
+            <span class="block mt-2 font-bold tracking-wide">
+              Das Matas — Para o Mundo
+            </span>
+          </p>
+
+
+          <!-- TEXTO LONGO (expansível) -->
+          <details class="mt-6 group">
+           <summary class="cursor-pointer text-sm font-medium
+               text-primary-600 dark:text-primary-400
+               hover:text-primary-700 dark:hover:text-primary-300
+               transition">
+            Ler mais
+          </summary>
+
+
+
+
+
+            <div class="mt-4 text-base leading-relaxed opacity-80">
+              <p>
+                As Matas é uma aldeia pequena, discreta e muitas vezes confundida com as suas homónimas.
+              </p>
+
+              <p class="mt-3">
+                Aqui outrora cresceram as grandes raízes da nossa azinheira.<br/>
+                A árvore já não está, mas as raízes nunca as perdemos.
+              </p>
+
+              <p class="mt-3">
+                Este projeto nasce da ligação entre humildade, comunidade e desporto.<br/>
+                Entre a aldeia, o padel e os quilómetros corridos, criamos pontes.
+              </p>
+
+              <p class="mt-3">
+                Quem sabe na esperança de que um dia outra ponte — a das Matas — vos traga até à nossa festa de Agosto,
+                com o mesmo orgulho com que vos recebemos.
+              </p>
+            </div>
+          </details>
+
+        </div>
+
+        {{< /rawhtml >}}
+
+  # 3 PILARES — cards editoriais com imagem
+  - block: markdown
+    content:
+      title: "Os 3 pilares"
+      text: |-
+        {{< rawhtml >}}
+        <div class="relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] w-screen bg-gray-50 dark:bg-[rgb(17,24,39)]">
+        
+          <div class="mx-auto max-w-6xl px-4 md:px-10 py-10 md:py-14">
+          
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-5 md:gap-8">
+
+              <!-- ALDEIA -->
+              <a href="/aldeia/" class="group block overflow-hidden rounded-2xl border border-black/10 dark:border-white/10 bg-white/80 dark:bg-white/5 backdrop-blur-md shadow-sm hover:shadow-lg transition">
+                <div class="relative aspect-[16/10] overflow-hidden">
+                  <img
+                    src="/img/pilar-aldeia.jpg"
+                    alt="Aldeia Das Matas"
+                    class="h-full w-full object-cover transition duration-500 group-hover:scale-[1.03]"
+                    loading="lazy"
+                  />
+                  <div class="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/25 via-black/0 to-black/0"></div>
+                </div>
+
+                <div class="p-6 md:p-7">
+                  <div class="text-xl font-semibold text-gray-900 dark:text-white">Aldeia</div>
+                  <div class="mt-2 text-base text-gray-700 dark:text-gray-200 leading-relaxed">
+                    Histórias e memórias partilhadas, com o orgulho simples em ser Das Matas.
+                  </div>
+                   <div class="mt-4 text-sm font-semibold
+                              text-primary-600 dark:text-primary-400
+                              group-hover:text-primary-700 dark:group-hover:text-primary-300
+                              transition">
+                    Explorar →
+                  </div>
+
+                </div>
+              </a>
+
+              <!-- PADEL -->
+              <a href="/padel/" class="group block overflow-hidden rounded-2xl border border-black/10 dark:border-white/10 bg-white/80 dark:bg-white/5 backdrop-blur-md shadow-sm hover:shadow-lg transition">
+                <div class="relative aspect-[16/10] overflow-hidden">
+                  <img
+                    src="/img/pilar-padel.jpg"
+                    alt="Padel em comunidade"
+                    class="h-full w-full object-cover transition duration-500 group-hover:scale-[1.03]"
+                    loading="lazy"
+                  />
+                  <div class="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/25 via-black/0 to-black/0"></div>
+                </div>
+
+                <div class="p-6 md:p-7">
+                  <div class="text-xl font-semibold text-gray-900 dark:text-white">Padel</div>
+                  <div class="mt-2 text-base text-gray-700 dark:text-gray-200 leading-relaxed">
+                    Jogado entre amigos, equipados com rigor… e sempre decidido no 4.º set.
+                  </div>
+                   <div class="mt-4 text-sm font-semibold
+                              text-primary-600 dark:text-primary-400
+                              group-hover:text-primary-700 dark:group-hover:text-primary-300
+                              transition">
+                    Explorar →
+                  </div>
+                </div>
+              </a>
+
+              <!-- RUNNER -->
+              <a href="/runner/" class="group block overflow-hidden rounded-2xl border border-black/10 dark:border-white/10 bg-white/80 dark:bg-white/5 backdrop-blur-md shadow-sm hover:shadow-lg transition">
+                <div class="relative aspect-[16/10] overflow-hidden">
+                  <img
+                    src="/img/pilar-runner.jpg"
+                    alt="Corridas em grupo"
+                    class="h-full w-full object-cover transition duration-500 group-hover:scale-[1.03]"
+                    loading="lazy"
+                  />
+                  <div class="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/25 via-black/0 to-black/0"></div>
+                </div>
+
+                <div class="p-6 md:p-7">
+                  <div class="text-xl font-semibold text-gray-900 dark:text-white">Runner</div>
+                  <div class="mt-2 text-base text-gray-700 dark:text-gray-200 leading-relaxed">
+                    Quilómetros somados em grupo, sorrisos pelo caminho e cada um no seu ritmo.
+                  </div>
+                   <div class="mt-4 text-sm font-semibold
+                              text-primary-600 dark:text-primary-400
+                              group-hover:text-primary-700 dark:group-hover:text-primary-300
+                              transition">
+                    Explorar →
+                  </div>
+
+                </div>
+              </a>
+
+            </div>
+
+          </div>
+        </div>
+        {{< /rawhtml >}}
+    design:
+      columns: "1"
+      full_width: true
+      spacing:
+        padding: ["0","0","0","0"]
+
+
+
+
+
+  # Hot Topics / Recent Posts
   - block: collection
     content:
-      title: Recent Publications
-      text: ''
-      filters:
-        folders:
-          - publications
-        exclude_featured: false
-    design:
-      view: citation
-  - block: collection
-    id: talks
-    content:
-      title: Recent & Upcoming Talks
-      filters:
-        folders:
-          - events
-    design:
-      view: card
-  - block: collection
-    id: news
-    content:
-      title: Recent News
-      subtitle: ''
-      text: ''
-      # Page type to display. E.g. post, talk, publication...
+      title: "Pela Aldeia"
       page_type: blog
-      # Choose how many pages you would like to display (0 = all pages)
-      count: 10
-      # Filter on criteria
-      filters:
-        author: ''
-        category: ''
-        tag: ''
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
-        publication_type: ''
-      # Choose how many pages you would like to offset by
-      offset: 0
-      # Page order: descending (desc) or ascending (asc) date.
+      count: 6
       order: desc
     design:
-      # Choose a layout view
       view: card
-      # Reduce spacing
-      spacing:
-        padding: [0, 0, 0, 0]
-  - block: cta-card
-    demo: true # Only display this section in the Hugo Blox Builder demo site
-    content:
-      title: 👉 Build your own academic website like this
-      text: |-
-        This site is generated by Hugo Blox Builder - the FREE, Hugo-based open source website builder trusted by 250,000+ academics like you.
-
-        <a class="github-button" href="https://github.com/HugoBlox/hugo-blox-builder" data-color-scheme="no-preference: light; light: light; dark: dark;" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star HugoBlox/hugo-blox-builder on GitHub">Star</a>
-
-        Easily build anything with blocks - no-code required!
-
-        From landing pages, second brains, and courses to academic resumés, conferences, and tech blogs.
-      button:
-        text: Get Started
-        url: https://hugoblox.com/templates/
-    design:
-      card:
-        # Card background color (CSS class)
-        css_class: 'bg-primary-300 dark:bg-primary-700'
-        css_style: ''
 ---

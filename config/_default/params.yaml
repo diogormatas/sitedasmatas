@@ -13,19 +13,23 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   identity:
     # Site name - shown in navbar, footer, copyright, and browser title by default
-    name: "Your Name"
+    name: "Das Matas"
+    logo:
+      path: "media/logo.svg"
+      height: 36
     # Legal entity for copyright notices (defaults to name if not set)
-    organization: ""
+    organization: "Das Matas"
     # Schema.org type for structured data
-    type: person                        # person | organization | local_business
+    type: local_business                 # person | organization | local_business
     # Short tagline displayed on your site
-    tagline: ""
+    tagline: "Das Matas — Para o Mundo"
     # Site meta description for search engines and social sharing
-    description: "The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website."
+    description: "Uma aldeia pequena com gente grande. Histórias da aldeia, padel com orgulho e quilómetros somados em comunidade."
     # Social accounts (used for meta tags like Twitter Cards)
     social:
-      twitter: "BuildLore"              # Twitter/X handle for Twitter Cards (without @)
+      instagram: "das.matas"
 
+      
   # ────────────────────────────────────────────────────────────────────────────
   # THEME
   # Color and visual design system
@@ -34,7 +38,7 @@ hugoblox:
     # Mode: 'light', 'dark', or 'system' (follows OS preference)
     mode: system
     # Theme pack: name from data/themes/ or { light: "x", dark: "y" } for mix-and-match
-    pack: "default"
+    pack: "minimal"
     # Optional: Override theme pack colors
     colors:
       primary: ""                       # Tailwind palette name or hex (e.g., "indigo" or "#6366f1")
@@ -76,28 +80,43 @@ hugoblox:
     # Avatar shape in author profiles
     avatar_shape: circle                # circle | square | rounded
 
+
+features:
+  share:
+    enable: false
+
   # ────────────────────────────────────────────────────────────────────────────
   # HEADER
   # Site header and navigation bar
   # ────────────────────────────────────────────────────────────────────────────
-  header:
-    enable: true
-    # Header style variant
-    style: navbar                       # navbar | navbar-simple | minimal
-    # Stick to top on scroll
-    sticky: true
-    # Menu alignment
-    align: center                       # left | center | right
-    # Feature toggles
-    search: true
-    theme_toggle: true
-    theme_picker: true
-    language_switcher: true
-    # Call-to-action button
-    cta:
-      enable: false
-      text: ""
-      url: ""
+    header:
+      enable: true
+      # Header style variant
+      style: navbar                       # navbar | navbar-simple | minimal
+      # Stick to top on scroll
+      sticky: true
+      # Menu alignment
+      align: center                       # left | center | right
+
+      # Navbar branding (logo)
+      navbar:
+        logo:
+          image: "/media/logo_header.svg"        # file in assets/media/
+          alt: "Das Matas"
+          text: ""                        # optional fallback text
+
+      # Feature toggles
+      search: true
+      theme_toggle: true
+      theme_picker: false
+      language_switcher: false
+
+      # Call-to-action button
+      cta:
+        enable: false
+        text: ""
+        url: ""
+
 
   # ────────────────────────────────────────────────────────────────────────────
   # FOOTER
@@ -106,7 +125,7 @@ hugoblox:
   footer:
     # Footer style variant
     style: minimal                      # minimal | columns | centered
-    language_switcher: true
+    language_switcher: false
     # Custom footer text (HTML supported)
     text: ""
 

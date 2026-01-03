@@ -1,0 +1,10 @@
+items:
+  - value: 42
+    label: "Merchandising"
+    icon: "/icons/roupa.svg"
+  - value: 2
+    label: "Troféus"
+    icon: "/icons/trofeu.svg"
+  - value: 0
+    label: "Km's"
+    icon: "/icons/correr.svg"
