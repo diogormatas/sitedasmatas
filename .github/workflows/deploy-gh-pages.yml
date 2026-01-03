@@ -18,6 +18,22 @@ jobs:
           submodules: recursive
           fetch-depth: 0
 
+      # ✅ Node é necessário para Tailwind via npx
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      # ✅ (Opcional mas recomendado) instalar deps se tiveres package.json
+      - name: Install npm dependencies (if present)
+        run: |
+          if [ -f package-lock.json ] || [ -f package.json ]; then
+            npm ci || npm install
+          else
+            echo "No package.json found - skipping npm install"
+          fi
+
       - name: Setup Hugo (extended)
         uses: peaceiris/actions-hugo@v3
         with:
