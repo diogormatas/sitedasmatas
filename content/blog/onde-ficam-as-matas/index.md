@@ -4,6 +4,7 @@ date: 2026-01-01
 tags: ["aldeia"]
 summary: "Localização, enquadramento e identidade das Matas, na freguesia de Nossa Senhora das Misericórdias, concelho de Ourém."
 authors: ["das-matas"]
+share: false
 ---
 
 ## Onde ficam as Matas

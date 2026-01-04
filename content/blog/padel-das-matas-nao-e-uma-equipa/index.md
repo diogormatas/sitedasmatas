@@ -4,6 +4,7 @@ date: 2026-01-01
 summary: "Jogamos padel, mas é pelo que acontece antes e depois do jogo."
 tags: ["padel"]
 authors: ["das-matas"]
+share: false
 ---
 
 O Padel Das Matas não é uma equipa oficial.  
