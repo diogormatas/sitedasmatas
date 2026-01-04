@@ -80,6 +80,9 @@ hugoblox:
     # Avatar shape in author profiles
     avatar_shape: circle                # circle | square | rounded
 
+sharing:
+  enable: false
+
 
 features:
   share:
