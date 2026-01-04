@@ -7,16 +7,20 @@ sections:
     content:
       title: "A Aldeia"
       text: |-
-        A aldeia que nos junta e nos explica.
+        
+          **A aldeia onde tudo começou — mas poucos sabem onde fica.**
 
-        Aqui guardamos o que é das Matas: nomes, lugares, tradições, memórias e pequenos detalhes
-        que não aparecem nos mapas grandes — mas que ficam.
+          Aqui falamos do que é das Matas.  
+          Das pessoas, das memórias e das tradições.
 
-        **O que encontras por aqui**
-        - Onde fica e o que se pode ver
-        - Histórias e pessoas da aldeia
-        - Curiosidades, festas e registos ao longo do ano
-        - Fotos antigas (quando existirem) e fotos novas (sempre)
+          Não é um arquivo fechado nem um postal turístico.  
+          É o registo simples de uma aldeia pequena, com passado, presente e futuro.
+
+          ### O que encontras por aqui
+
+          - Onde ficam as Matas e o que se pode ver  
+          - Pessoas, nomes e histórias 
+          - Curiosidades, tradições e a festas das Matas  
     design:
       columns: "1"
 

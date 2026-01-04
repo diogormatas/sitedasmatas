@@ -7,17 +7,21 @@ sections:
     content:
       title: "Padel Das Matas"
       text: |-
-        O padel como ponto de encontro.
 
-        Registos de jogos, torneios e dias de convívio — com foco nas pessoas,
-        no hábito de aparecer e no que fica depois do último ponto.
+        **A equipa de padel que nunca o foi.**
 
-        **O que encontras por aqui**
-        - Torneios sociais (2 a 4 dias… depende de como corre)
-        - Torneios da federação (nível mais exigente, mesma malta)
-        - “Mix” e jogos do dia (2h, várias equipas, muita rotação)
-        - Fotos dentro e fora do campo
-        - Merch Das Matas: em campo e na rua (sem ser “loja”, é pertença)
+        Aqui ficam os registos de torneios, jogos e encontros à volta do padel.  
+        Mais do que resultados, interessa-nos a boa disposição, o hábito de aparecer e as pessoas que acabam sempre por se repetir.
+
+        Não é uma equipa oficial.  
+        É um grupo que veste a camisola e leva o espírito Das Matas para dentro e fora do campo.
+
+        ### O que encontras por aqui
+
+        - Registos de participações em torneios e eventos de padel  
+        - Fotos dentro e fora do campo  
+        - Merchandising Das Matas espalhado por aí — em jogo e no dia-a-dia
+
     design:
       columns: "1"
 

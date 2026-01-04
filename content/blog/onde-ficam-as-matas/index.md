@@ -1,75 +1,104 @@
 ---
-title: "Onde ficam as Matas"
+title: "Onde ficam as Matas?"
 date: 2026-01-01
 tags: ["aldeia"]
-summary: "Localização, enquadramento e identidade das Matas, na freguesia de Nossa Senhora das Misericórdias, concelho de Ourém."
+summary: "Localização, história e identidade de uma aldeia pequena, mas com nome próprio."
 authors: ["das-matas"]
 share: false
 ---
 
-## Onde ficam as Matas
-
-As Matas são uma pequena aldeia situada na **freguesia de Nossa Senhora das Misericórdias**,  
+As Matas são uma pequena aldeia da **freguesia de Nossa Senhora das Misericórdias**,  
 no **concelho de Ourém**, distrito de Santarém.
 
-Ficam numa zona de transição entre o Ribatejo e o Médio Tejo, rodeadas por campos, caminhos
-secundários e pequenas manchas de floresta — longe dos grandes eixos, mas perto do essencial.
+Ficam entre o **Sobral** e o **Outeiro das Matas**, num território discreto, longe dos grandes eixos,  
+onde é preciso saber para onde se vai — porque ninguém passa aqui por acaso.
 
-*(imagem: mapa / localização — inserida acima)*
+*(imagem: Ponte das Matas — inserida acima)*
 
----
+## O que são (e o que têm)
 
-## Enquadramento geográfico
+As Matas são pequenas. 
 
-As Matas inserem-se num território tipicamente rural, marcado por:
-- terrenos agrícolas de pequena escala  
-- caminhos locais e ligações entre aldeias  
-- uma paisagem feita de rotinas mais do que de pressa  
+Há:
+- uma ponte  
+- uma escola  
+- uma padaria  
+- uma oficina  
+- um cemitério  
 
-A proximidade a Ourém garante acesso a serviços e vida urbana,  
-mas o dia-a-dia mantém um ritmo próprio, mais próximo do campo do que da cidade.
+E chega.
 
----
+Com menos de **30 casas habitadas**, a dimensão da aldeia percebe-se depressa.  
+Aqui sabe-se quem mora onde, quem já cá viveu e quem só aparece em agosto.
 
-## População e demografia
+O frio no inverno é conhecido principalmente na estrada para o Vale Cavalo  — há quem diga que rivaliza com o Polo Norte —  
+mas no verão compensa-se com portas abertas, sombras curtas e conversas longas.
 
-Como muitas aldeias do interior, as Matas vivem:
-- entre gerações mais antigas, que sempre cá estiveram  
-- e pessoas que regressam aos fins-de-semana, festas ou férias  
+## A azinheira que marcou a aldeia
 
-A população não é grande, mas é **conhecida** —  
-as pessoas sabem quem mora onde, quem é filho de quem, e quem já cá esteve.
+Durante muitos anos, as Matas tiveram algo raro:  
+**a maior azinheira da Península Ibérica em área de copa**.
 
-A aldeia muda com o tempo, mas mantém uma coisa constante:  
-**a sensação de pertença**, mesmo para quem já não vive cá todos os dias.
+A árvore já não existe.  
+Caiu durante a tempestade de **19 de janeiro de 2013**.
 
----
+Mas ficou o símbolo.  
+As raízes — essas — continuam.
 
-## Um pouco de história (o que sabemos)
+## A festa das Matas
 
-As Matas partilham a história comum de muitas aldeias da região:
-- crescimento ligado à agricultura e à vida local  
-- famílias grandes, trabalho duro e relações próximas  
-- emigração, sobretudo a partir da segunda metade do século XX  
+Há um único grande acontecimento anual:  
+**a tradicional Festa das Matas**.
 
-Não há grandes monumentos nem datas marcadas nos livros,  
-mas há histórias que passam de boca em boca —  
-nomes, alcunhas, festas, jogos, percursos e hábitos que ficaram.
+Normalmente realiza-se em **agosto**, na **sexta-feira seguinte ao primeiro domingo do mês**  
+— o domingo da festa do Outeiro das Matas.
 
-A história das Matas é feita mais de **pessoas** do que de eventos.
+É uma festa pequena, simples e muito nossa.  
+Sardinha e vinho oferecidos (dependendo do ano),  
+frango assado, moelas à noite  
+e muita ajuda de quem está emigrado, sobretudo em França,  
+e regressa às origens no verão.
 
----
+Há um detalhe que diz muito sobre o espírito da aldeia:  
+o último a ficar na festa leva a **chave da festa**  
+— e fica responsável por a devolver no ano seguinte.
+
+Sem discursos. Sem palco grande.  
+Só presença.
+
+## Porque este espaço se chama “Das Matas”
+
+O nome **Das Matas** não foi escolhido por acaso.
+
+Durante anos, era comum juntarem-se pessoas de aldeias vizinhas.  
+Quando havia dois nomes iguais, a distinção fazia-se assim:
+
+João **das Matas**  
+Fábio **das Matas**  
+Diogo **das Matas**
+...
+
+Com o tempo, houve quem deixasse de precisar do nome próprio.  
+Bastava dizer:  
+“Ó **das Matas**”.
+
+Ao mesmo tempo, sempre existiram referências locais claras:  
+a **ponte das Matas**,  
+a **escola das Matas**,  
+o carvalho **das Matas**.
+
+O nome já lá estava.  
+O projeto apenas o assumiu.
 
 ## Passado, presente e futuro
 
-As Matas não são apenas memória.
-
-São:
+As Matas são:
 - o passado de quem cá cresceu  
-- o presente de quem mantém a ligação  
-- e o futuro de quem acredita que uma aldeia pode continuar a significar algo  
+- o presente de quem mantém ligação  
+- o futuro de quem acredita que uma aldeia pequena pode continuar a ter significado  
 
-Este projeto nasce daí:  
-de ligar o que fomos, o que somos e o que ainda pode vir.
+Este projeto nasce daí.  
+De uma aldeia que quase ninguém conhece,  
+mas que explica muita gente.
 
 **Das Matas — Para o Mundo.**

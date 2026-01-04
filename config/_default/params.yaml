@@ -11,6 +11,7 @@ hugoblox:
       path: "media/logo.svg"
       height: 36
     organization: "Das Matas"
+    favicon: "media/favicon.png"
     type: local_business
     tagline: "Das Matas — Para o Mundo"
     description: "Uma aldeia pequena com gente grande. Histórias da aldeia, padel com orgulho e quilómetros somados em comunidade."

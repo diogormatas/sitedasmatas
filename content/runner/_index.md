@@ -9,14 +9,11 @@ sections:
       text: |-
         Correr em grupo, cada um no seu ritmo.
 
-        Não há tempos oficiais nem planos rígidos.
+        Não há tempos nem planos de treino.
         Há voltas simples, quilómetros somados e a parte mais importante: voltar.
 
         **O que encontras por aqui**
-        - Percursos e voltas (curtas e longas)
-        - Provas e saídas em grupo (quando calhar)
-        - Registos do hábito: consistência > performance
-        - Fotos do caminho (sem pose, sem vaidade)
+        - Alegria e boa disposição
     design:
       columns: "1"
 
