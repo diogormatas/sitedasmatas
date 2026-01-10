@@ -7,13 +7,13 @@ authors: ["das-matas"]
 share: false
 ---
 
-O Runner Das Matas não nasceu de um plano, nem de um desafio, nem de uma prova marcada no calendário.
+O **Runner Das Matas** não nasceu de um plano, nem de um desafio, nem de uma prova marcada no calendário.
 
 Nasceu de algo bem mais simples.
 
-Depois de criada a marca **Padel Das Matas**, com t-shirts e hoodies pensados para jogar e para usar no dia-a-dia, a camisola começou a circular. Entre jogos, torneios e convívios, o design espalhou-se.
+Depois de criada a marca **Padel Das Matas**, com *t-shirts* e *hoodies* pensados para jogar e para usar no dia-a-dia, a camisola começou a circular. Entre jogos, torneios e convívios, o design espalhou-se.
 
-Foi nesse contexto que o grande professor ** RODA**, um verdadeiro *team player*, que já fazia algumas corridas com jogadores de padel, fez um pedido simples:
+Foi nesse contexto que o grande professor **RODA**, um verdadeiro *team player*, que já fazia algumas corridas com jogadores de padel, fez um pedido simples:
 
 > “Faz-me uma t-shirt para correr.”
 
@@ -30,9 +30,9 @@ Cada um corre o que consegue e aparece quando pode.
 O objetivo é simples: manter um estilo de vida saudável, em grupo, mas com liberdade.  
 Por vezes surgem provas — uma mini-maratona aqui, uma meia-maratona ali — espalhadas pelo país. Quando acontece, vai-se ou não.
 
-No Runner Das Matas, primeiro vem o hábito.  
+No **Runner Das Matas**, primeiro vem o hábito.  
 Depois vêm os quilómetros.  
 E só depois, se fizer sentido, vem tudo o resto.
 
-No fundo, corre-se como se vive nas Matas:  
+No fundo, corre-se como se vive nas *Matas*:  
 sem pressa, mas para a frente.

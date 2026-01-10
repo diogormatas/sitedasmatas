@@ -9,8 +9,9 @@ sections:
       text: |-
         Correr em grupo, cada um no seu ritmo.
 
-        Não há tempos nem planos de treino.
-        Há voltas simples, quilómetros somados e a parte mais importante: voltar.
+        Não há tempos nem planos de treino. 
+        A regra é, "sempre em frente"!
+        Há voltas simples, quilómetros somados e a parte mais importante: repetir.
 
         **O que encontras por aqui**
         - Alegria e boa disposição

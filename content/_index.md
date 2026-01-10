@@ -44,7 +44,7 @@ sections:
           <!-- TEXTO CURTO -->
           <p class="text-2xl md:text-3xl font-semibold leading-snug">
             A aldeia que ninguém conhece.<br/>
-            As pessoas que fazem a diferença.<br/>
+            Pessoas que fazem a diferença.<br/>
             <span class="block mt-2 font-bold tracking-wide">
               Das Matas — Para o Mundo
             </span>
@@ -71,12 +71,12 @@ sections:
 
               <p class="mt-3">
                 Aqui outrora cresceram as grandes raízes da nossa azinheira.<br/>
-                A árvore já não está, mas as raízes nunca as perdemos.
+                A árvore já não está. As raízes, essas, nunca se perdem.
               </p>
 
               <p class="mt-3">
                 Este projeto nasce da ligação entre humildade, comunidade e desporto.<br/>
-                Entre a aldeia, o padel e os quilómetros corridos, criamos pontes.
+                Da aldeia ao padel, passando pelos quilómetros corridos, fomos criando pontes.
               </p>
 
               <p class="mt-3">
@@ -117,7 +117,7 @@ sections:
                 <div class="p-6 md:p-7">
                   <div class="text-xl font-semibold text-gray-900 dark:text-white">Aldeia</div>
                   <div class="mt-2 text-base text-gray-700 dark:text-gray-200 leading-relaxed">
-                    Histórias e memórias partilhadas, com o orgulho simples em ser Das Matas.
+                    Histórias e memórias partilhadas, com o orgulho e simplicidade em ser Das Matas.
                   </div>
                    <div class="mt-4 text-sm font-semibold
                               text-primary-600 dark:text-primary-400
@@ -144,7 +144,7 @@ sections:
                 <div class="p-6 md:p-7">
                   <div class="text-xl font-semibold text-gray-900 dark:text-white">Padel</div>
                   <div class="mt-2 text-base text-gray-700 dark:text-gray-200 leading-relaxed">
-                    Jogado entre amigos, equipados com rigor… e sempre decidido no 4.º set.
+                    Jogado entre amigos, equipados a rigor… e sempre decidido no 4.º set.
                   </div>
                    <div class="mt-4 text-sm font-semibold
                               text-primary-600 dark:text-primary-400
@@ -170,7 +170,7 @@ sections:
                 <div class="p-6 md:p-7">
                   <div class="text-xl font-semibold text-gray-900 dark:text-white">Runner</div>
                   <div class="mt-2 text-base text-gray-700 dark:text-gray-200 leading-relaxed">
-                    Quilómetros somados em grupo, sorrisos pelo caminho e cada um no seu ritmo.
+                    Quilómetros somados por todos, cada um no seu ritmo, mas todos pelo mesmo espírito.
                   </div>
                    <div class="mt-4 text-sm font-semibold
                               text-primary-600 dark:text-primary-400

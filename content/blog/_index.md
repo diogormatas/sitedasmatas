@@ -6,10 +6,9 @@ sections:
     content:
       title: "Posts"
       text: |-
-        Registos, histórias e momentos do projeto Das Matas.
+        Histórias que se foram juntando ao longo do caminho.
 
-        Aqui juntam-se todos os conteúdos — da aldeia ao desporto,
-        sem ordem rígida e sem pressa.
+        Da aldeia ao desporto, este é o lugar onde tudo se cruza no projeto Das Matas.
     design:
       columns: "1"
 
