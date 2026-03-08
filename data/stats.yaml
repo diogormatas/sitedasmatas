@@ -1,7 +1,9 @@
 items:
-  - value: 98
+  - value: 100
     label: "Merchandising"
     icon: "/icons/roupa.svg"
+  - value: 88
+    label: "Seguidores"
   - value: 3
     label: "Troféus"
     icon: "/icons/trofeu.svg"
