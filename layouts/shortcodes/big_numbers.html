@@ -23,8 +23,7 @@
 
   <!-- PANE MAIS GROSSO -->
   <div class="px-4 py-32 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-16 lg:px-20">
-    
-    <div class="grid grid-flow-col auto-cols-fr gap-0">
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-0">
       {{ range $i, $it := site.Data.stats.items }}
         <div class="text-center px-3 md:px-10
           {{ if lt $i (sub (len site.Data.stats.items) 1) }}
@@ -35,7 +34,7 @@
             {{ $it.value }}
           </div>
 
-          <div class="mt-2 text-sm sm:text-base md:text-lg font-semibold tracking-wide text-gray-800 dark:text-gray-200 whitespace-nowrap">
+          <div class="mt-2 text-sm sm:text-base md:text-lg font-semibold tracking-wide text-gray-800 dark:text-gray-200 leading-tight">
             {{ $it.label }}
           </div>
 
