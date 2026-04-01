@@ -1,12 +1,12 @@
 items:
-  - value: 111
+  - value: 123
     label: "Merchandising"
     icon: "/icons/roupa.svg"
-  - value: 88
+  - value: 104
     label: "Seguidores"
-  - value: 3
+  - value: 7
     label: "Troféus"
     icon: "/icons/trofeu.svg"
-  - value: 11
+  - value: 81
     label: "Km's"
     icon: "/icons/correr.svg"
